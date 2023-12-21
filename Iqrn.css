@@ -123,6 +123,14 @@ li a:hover:not(.active) {
     
 }
 
+.ttl1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color:#44318D;
+    margin-top: 50px;
+}
+
 .box{
     text-align: center;
 }
