@@ -146,49 +146,15 @@ table.Much td, table.Much th {
 }
 
 table.Much tbody td {
-    font-size: 14px;
+    font-size: 30px;
     color:#44318D
 }
 
 table.Much thead th {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 thead{
     color:#D83F87
-}
-
-@media screen and (max-width:768px){
-    table.Much {
-        position: relative;
-        font-family: Impact, Charcoal, sans-serif;
-        border: 5px solid #2A1B3D;
-        background: rgba(42, 27, 61, 0.38);
-        width: 70%;
-        height: 200%;
-        text-align: center;
-        border-collapse: collapse;
-        margin: auto;
-        margin-top: 20px;
-    }
-    
-    table.Much td, table.Much th {
-        border: 4px solid #2A1B3D;
-        padding: 3px 2px;
-    }
-    
-    table.Much tbody td {
-        font-size: 20px;
-        color:#44318D
-    }
-    
-    table.Much thead th {
-        font-size: 30px;
-        font-weight: bold;
-    }
-    
-    thead{
-        color:#D83F87
-    }
 }
