@@ -155,7 +155,7 @@ table.Much td, table.Much th {
 
 table.Much tbody td {
     font-size: 30px;
-    color:#44318D
+    color:#D83F87;
 }
 
 table.Much thead th {
@@ -164,5 +164,5 @@ table.Much thead th {
 }
 
 thead{
-    color:#D83F87
+    color:#44318D;
 }
