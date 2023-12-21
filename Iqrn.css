@@ -92,7 +92,7 @@ li a:hover:not(.active) {
     color:#44318D;
     line-height:70px;
     padding: 20px 50px;
-    margin-top: 124px;
+    margin-top: 50px;
     background: rgba(42, 27, 61, 0.38);
     text-align: center;
     border-radius: 16px;
@@ -128,6 +128,7 @@ li a:hover:not(.active) {
 }
 
 table.Much {
+    position: relative;
     font-family: Impact, Charcoal, sans-serif;
     border: 5px solid #2A1B3D;
     background: rgba(42, 27, 61, 0.38);
@@ -146,10 +147,48 @@ table.Much td, table.Much th {
 
 table.Much tbody td {
     font-size: 14px;
-    color: #2A1B3D;
+    color:#44318D
 }
 
 table.Much thead th {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
+}
+
+thead{
+    color:#D83F87
+}
+
+@media screen and (max-width:768px){
+    table.Much {
+        position: relative;
+        font-family: Impact, Charcoal, sans-serif;
+        border: 5px solid #2A1B3D;
+        background: rgba(42, 27, 61, 0.38);
+        width: 70%;
+        height: 200%;
+        text-align: center;
+        border-collapse: collapse;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    table.Much td, table.Much th {
+        border: 4px solid #2A1B3D;
+        padding: 3px 2px;
+    }
+    
+    table.Much tbody td {
+        font-size: 20px;
+        color:#44318D
+    }
+    
+    table.Much thead th {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    thead{
+        color:#D83F87
+    }
 }

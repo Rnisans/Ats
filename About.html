@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Главная</title>
+    <title>О нас</title>
     <link rel="icon" href="menu.ico" type="image/x-icon">
     <link rel="stylesheet" href="Iqrn.css">
 </head>
@@ -11,16 +11,19 @@
         <ul class="nava">
             <li><a style="color:#D83F87" href="index.html">Главная</a></li>
             <li><a style="color:#D83F87" href="Clients.html">Клиентам</a></li>
-            <li><a class="active" style="white-space: nowrap;" href="About.html">Бизнес</a></li>
-            <li><a style="color:#D83F87;white-space: nowrap;" href="Feed.html">Обратная связь</a></li>
+            <li><a class="active" style="white-space: nowrap;" href="About.html">О нас</a></li>
+            <li><a style="color:#D83F87;white-space: nowrap;" href="Feed.html">Обратиться</a></li>
         </ul>
     </nav>
-<script>
-    const menu = document.querySelector(".menu")
-    const navi = document.querySelector(".navbar")
-    menu.addEventListener('click',()=>{
-        navi.classList.toggle('close')
-    })
-</script>
+    <p class="ttl">
+        О нас
+    </p>
+    <script>
+        const menu = document.querySelector(".menu")
+        const navi = document.querySelector(".navbar")
+        menu.addEventListener('click',()=>{
+            navi.classList.toggle('close')
+        })
+    </script>
 </body>
 </html>
