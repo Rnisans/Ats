@@ -86,7 +86,7 @@ li a:hover:not(.active) {
     margin-left: 5%;
 }
 
-.сmntext{
+.cmntext{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 60px;
     color:#44318D;
@@ -146,23 +146,31 @@ table.Much {
     border-collapse: collapse;
     margin: auto;
     margin-top: 20px;
+    z-index: -1;
 }
 
 table.Much td, table.Much th {
     border: 4px solid #2A1B3D;
     padding: 3px 2px;
+    z-index: -1;
 }
 
 table.Much tbody td {
     font-size: 30px;
     color:#D83F87;
+    z-index: -1;
 }
 
 table.Much thead th {
     font-size: 40px;
     font-weight: bold;
+    z-index: -1;
 }
 
 thead{
     color:#44318D;
+}
+
+.abtext{
+    text-align:left;
 }
