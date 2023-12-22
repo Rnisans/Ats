@@ -102,6 +102,37 @@ li a:hover:not(.active) {
     margin-left: 5%;
 }
 
+.cmnftext{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color:#44318D;
+    line-height:70px;
+    padding: 20px 50px;
+    margin-top: 50px;
+    background: rgba(42, 27, 61, 0.38);
+    text-align: left;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 5px solid rgba(42, 27, 61, 1);
+    margin-right: 5%;
+    margin-left: 5%;
+    display: grid;
+}
+
+.cmnfftext{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color:#44318D;
+    line-height:70px;
+    background: rgba(42, 27, 61, 0.38);
+    text-align: left;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 5px solid rgba(42, 27, 61, 1);
+    width:40%;
+}
+
+
 .immg{
     margin-top: 50px;
     background: rgba(42, 27, 61, 0.38);
@@ -173,4 +204,36 @@ thead{
 
 .abtext{
     text-align:left;
+}
+.immga{
+    margin-top: 50px;
+    background: rgba(42, 27, 61, 0.38);
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(42, 27, 61, 1);
+    border: 5px solid rgba(42, 27, 61, 1);
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.cmf{
+    margin-top: 5%;
+}
+
+.cmnb{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color:#44318D;
+    line-height:70px;
+    background: rgba(42, 27, 61, 0.38);
+    text-align: left;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 5px solid rgba(42, 27, 61, 1);
+    width:40%;
+    margin-top: 5%;
+    text-align: center;
+    cursor: pointer;
 }
